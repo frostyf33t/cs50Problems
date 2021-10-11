@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: The reverse time was the longest (reversed50000 was about 12 seconds).  To get the largest numbers in the front all the way to the back took a significant amount of time.
+
+sort2 uses: Merge sort
+
+How do you know?: This algorithm was consistently the fastest.  For the 50000 data sets it took roughly 2 seconds each.
+
+sort3 uses: Selection sort
+
+How do you know?: This algorithm was faster than bubble sort on the reverse numbers.

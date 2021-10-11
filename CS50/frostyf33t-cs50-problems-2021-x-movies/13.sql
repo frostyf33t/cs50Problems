@@ -1,0 +1,1 @@
+select DISTINCT name from people JOIN stars on stars.person_id = people.id Where name != "Kevin Bacon" and movie_id in (Select movies.id from movies JOIN stars ON movies.id = stars.movie_id JOIN people ON stars.person_id = people.id where name = "Kevin Bacon");
