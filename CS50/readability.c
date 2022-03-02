@@ -4,7 +4,7 @@
 #include <math.h>
 #include <string.h>
 
-//function to caluclate reading level
+//function to calculate reading level
 
 int main(void)
 {
@@ -47,14 +47,14 @@ int main(void)
         }
     }
 
-    //index variable calculates coleman-liau equation
+    //index variable calculates Coleman-Liau equation
     int index = round((0.0588 * (lettercounter / (((float) wordcounter) / 100))) - (.296 * (sentencecounter / (((
                           float) wordcounter) / 100))) - 15.8);
 
     //string that initializes gradelevel
     string gradelevel = " ";
     
-    //if else statement to prince out gradelevel
+    //if-else statement to prince out gradelevel
     if (index < 1)
     {
 
